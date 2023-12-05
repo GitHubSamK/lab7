@@ -9,6 +9,8 @@ searchBar.addEventListener("click", getEvents);
 
 function getEvents(){
 
+    
+
 fetch('https://api.predicthq.com/v1/events/?category=concerts', {
     method: "GET",
     headers: {
@@ -17,7 +19,7 @@ fetch('https://api.predicthq.com/v1/events/?category=concerts', {
       }
   })
   .then(response => response.json()) 
-  .then(json => console.log(json.results[0].category))
+  .then(json => console.log(json.results))
   .catch(err => console.log(err));
 
 
