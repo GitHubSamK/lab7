@@ -1,3 +1,8 @@
+
+body{
+    box-sizing: border-box;
+}
+
 h1 {
   
     text-align: center;
@@ -11,4 +16,51 @@ p{
 
     text-align: center;
 }
+
+
+table {
+
+    
+    text-align: center;
+    table-layout: auto;
+    margin: auto;
+    max-width:80%;
+}
+
+tr:nth-child(even) {
+    background-color:white;
+}
+
+tr:nth-child(odd) {
+    background-color:aliceblue;
+}
+
+.results{
+
+  padding-top: 15px;
+
+}
+
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+
+
+th,
+td {
+    padding: 20px;
+
+}
+
+.hide {
+    display: none;
+}
+
+
 

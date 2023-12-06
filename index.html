@@ -11,15 +11,30 @@
 
 <body>
     <section>
-    <h1>Local San Francisco Artist Event Finder</h1>
+    <h1>Artist Event Finder</h1>
     <p>Type a artist name then click search to see events.</p>
     <div class="search">
         <input type="text" id="artist" placeholder="name of artist">
         <button id="search">Search for events</button>
     </div>
+<div class="results">
+    <table>
+        <thead class="header">
+          <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Date</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody id="container">
+        </tbody>
+      </table>
 
-    <div id="container"></div>
+    </div>
+
     </section>
+    
 </body>
 
 
